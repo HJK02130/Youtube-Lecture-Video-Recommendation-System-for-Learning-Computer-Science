@@ -42,7 +42,6 @@ First, we built a database storing 2,189 YouTube video instances related to a to
 Filetree (modifying)
 
 ### Architecture
-[📑 Here is Detailed Project Description]()
 <div align=center>  <img src="./img/architecture.png"> </div>
 
 ### Repository Explaination
