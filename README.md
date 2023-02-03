@@ -39,7 +39,57 @@ First, we built a database storing 2,189 YouTube video instances related to a to
 + make_video.py is being modifyed.
 
 ### Usage
-Filetree (modifying)
+├── SDS_content_based_recommendation.ipynb<br/>
+└── data_aquisition/<br/>
+    ├── csv/<br/>
+    │   ├── _Artificial intelligence_ AND (_lecture_OR_course_OR_class_) 2.csv<br/>
+    │   ├── _Artificial intelligence_ AND (_lecture_OR_course_OR_class_).csv<br/>
+    │   ├── _Computational science, finance and engineering_ AND (_lecture_OR_course_OR_class_).csv<br/>
+    │   ├── _Computer architecture and organization_ AND (_lecture_OR_course_OR_class_).csv<br/>
+    │   ├── _Computer architecture and organization_ AND (_lecture_OR_course_OR_class_).csv<br/>
+    │   ├── _Computer networks_ AND (_lecture_OR_course_OR_class_).csv<br/>
+    │   ├── _Computer security and cryptography_ AND (_lecture_OR_course_OR_class_).csv<br/>
+    │   ├── _Concurrent, parallel and distributed computing_ AND (_lecture_OR_course_OR_class_).csv<br/>
+    │   ├── _Data structures and algorithms_ AND (_lecture_OR_course_OR_class_).csv<br/>
+    │   ├── _Databases and data mining_ AND (_lecture_OR_course_OR_class_).csv<br/>
+    │   ├── _Image and sound processing_ AND (_lecture_OR_course_OR_class_).csv<br/>
+    │   ├── _Information and coding theory_ AND (_lecture_OR_course_OR_class_).csv<br/>
+    │   ├── _Programming language theory and formal methods_ AND (_lecture_OR_course_OR_class_).csv<br/>
+    │   ├── _Social computing and human-computer interaction_ AND (_lecture_OR_course_OR_class_).csv<br/>
+    │   ├── _Software engineering_ AND (_lecture_OR_course_OR_class_).csv<br/>
+    │   └── _Theory of computation_ AND (_lecture_OR_course_OR_class_).csv<br/>
+    ├── data/<br/>
+    │   ├── srt/<br/>
+    │   │   └── _1Acaj5aUwY.srt<br/>
+    │   ├── summary/<br/>
+    │   │   └── _1Acaj5aUwY.json<br/>
+    │   └── summarytext  /<br/>
+    │       └── _Artificial intelligence_ AND (_lecture_OR_course_OR_class_)/<br/>
+    │           └── _1Acaj5aUwY.json<br/>
+    ├── subtitles/<br/>
+    │   └── Artificial intelligence_ AND (_lecture_OR_course_OR_class_)/<br/>
+    │       └── _1Acaj5aUwY.json<br/>
+    ├── videos/<br/>
+    │   └── Artificial intelligence_ AND (_lecture_OR_course_OR_class_)/<br/>
+    │       └── _1Acaj5aUwY.json<br/>
+    ├── firestore/<br/>
+    │   ├── index.js<br/>
+    │   ├── recommendation.json<br/>
+    │   ├── user.json<br/>
+    │   └── video.json<br/>
+    ├── sdsapp/<br/>
+    │   ├── list(mypage).dart<br/>
+    │   ├── list.dart<br/>
+    │   ├── list2.dart<br/>
+    │   ├── mainapp.dart<br/>
+    │   ├── summary.dart<br/>
+    │   ├── video_main.dart<br/>
+    │   └── video_player.dart<br/>
+    ├── make_recommendation.py<br/>
+    ├── make_video.py<br/>
+    ├── maketsne.py<br/>
+    ├── search_result.py<br/>
+    └── summarize.py<br/>
 
 ### Architecture
 <div align=center>  <img src="./img/architecture.png"> </div>
